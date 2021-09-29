@@ -20,9 +20,7 @@ public class lab19
          wordCount = wordCount + words.length;
          for(String word : words)
          {
-	   
            charCount = charCount + word.length();
-         System.out.println(charCount);
          }
          currentLine = reader.readLine();
        }
